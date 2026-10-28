@@ -3,3 +3,69 @@
 @media(max-width:800px){.hero{grid-template-columns:1fr;padding-top:65px;gap:35px}.hero-art{max-width:650px;width:100%;justify-self:center}.hero-index{bottom:15px}.statement{grid-template-columns:1fr;gap:15px;padding:65px 28px}.statement>div{grid-template-columns:1fr 1fr;gap:15px 25px}.family-grid{grid-template-columns:1fr}.family{min-height:0;display:grid;grid-template-columns:70px 1fr;column-gap:15px;align-items:center}.family>span{grid-column:1/-1}.family img{grid-row:2/4;width:58px;height:58px;margin:14px 0}.family h3{align-self:end}.family p{align-self:start}.product-row,.product-row.reverse{grid-template-columns:1fr;gap:30px;padding:38px 22px 60px}.reverse .product-image{order:0}.product-image{max-width:650px;width:100%;margin:auto}.product-copy{max-width:650px}.logo-guide{grid-template-columns:1fr;gap:28px}.gpu-title-line{align-items:flex-start}.gpu-title-line>img{width:65px;height:65px}.page-intro{padding-top:60px}.tech-list article{grid-template-columns:55px 1fr}}
 @media(max-width:560px){.top{height:66px;padding:0 20px}.wordmark{font-size:28px}.menu-toggle{display:block}.top nav{display:none;position:absolute;top:65px;left:0;right:0;background:#0b0b0b;border-bottom:1px solid #333;padding:12px 20px 20px;flex-direction:column;gap:0}.top nav.open{display:flex}.top nav a{padding:13px 0;border-bottom:1px solid #202020}.hero{padding:60px 20px 60px;min-height:0}.hero h1{font-size:clamp(43px,12vw,65px);letter-spacing:-.02em}.lede{font-size:14px}.hero-art{padding:32px 8px 13px}.hero-art img{width:135%;margin-left:-17%}.art-caption{font-size:7px}.hero-index{left:20px;bottom:15px}.statement,.family-section{padding:60px 20px}.statement>div{grid-template-columns:1fr;gap:10px}.statement h2{margin-bottom:0}.section-head{align-items:flex-start;flex-direction:column;gap:0}.section-head .text-link{margin-top:5px}.family{padding:18px}.page-intro{padding:55px 20px 35px}.page-intro h1{font-size:clamp(43px,12vw,62px)}.gpu-title-line{gap:16px}.gpu-title-line>img{width:50px;height:50px}.gpu-title-line h1{font-size:clamp(37px,10vw,53px)}.gpu-title-line p{font-size:12px}.product-row,.product-row.reverse{padding:32px 20px 50px}.product-image{padding:30px 5px 12px}.product-image img{width:130%;margin-left:-15%}.product-copy h2{font-size:39px}.logo-guide{padding:55px 20px 65px}.logo-guide-grid article{grid-template-columns:52px 1fr;gap:14px}.logo-guide-grid img{width:48px;height:48px}.tech-list{padding:0 20px 40px}.tech-list article{grid-template-columns:36px 1fr;gap:12px;padding:23px 0}.tech-list h2{font-size:25px}footer{padding:24px 20px;align-items:flex-start;flex-direction:column;gap:12px}.about-statement{padding-top:55px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+
+/* KRONYX — Écran de chargement */
+#kronyx-loader {
+    position: fixed;
+    inset: 0;
+    z-index: 999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity .35s ease, visibility .35s ease;
+}
+
+#kronyx-loader.hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.loader-ring {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader-logo {
+    width: 76px;
+    height: 76px;
+    object-fit: contain;
+    z-index: 2;
+}
+
+/* Demi-cercle blanc et vert */
+.loader-ring::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #8bdc72;
+    border-right-color: #8bdc72;
+    border-bottom-color: #fff;
+    border-left-color: #fff;
+    animation: kronyx-spin 1.2s linear infinite;
+    filter: drop-shadow(0 0 5px #8bdc7260);
+}
+
+@keyframes kronyx-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .loader-ring::before {
+        animation-duration: 4s;
+    }
+}
