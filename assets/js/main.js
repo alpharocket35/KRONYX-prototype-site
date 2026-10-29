@@ -19,10 +19,28 @@ const toggle=document.querySelector('.menu-toggle');const nav=document.querySele
                         `Recherche d'une page correspondant à votre requête… ${secondes} s`;
                 }
 
-                if (secondes >= 10) {
-                    clearInterval(compteARebours);
-                    loader.classList.add("hidden");
-                }
+                
+
+if (secondes >= 10) {
+    clearInterval(compteARebours);
+
+    const cancelMessage = document.getElementById("loader-cancel-message");
+    const cancelCode = document.getElementById("loader-cancel-code");
+
+    if (cancelMessage) {
+        cancelMessage.hidden = false;
+    }
+
+    if (cancelCode) {
+        cancelCode.hidden = false;
+    }
+
+    setTimeout(() => {
+        loader.classList.add("hidden");
+    }, 2000);
+}
+
+
             }, 1000);
         } else {
             loader.classList.add("hidden");
