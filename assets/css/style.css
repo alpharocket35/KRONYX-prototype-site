@@ -89,3 +89,14 @@
     font-size: 12px;
     text-align: center;
 }
+/* Afficher le logo et les textes verticalement */
+#kronyx-loader {
+    flex-direction: column !important;
+}
+
+#loader-message,
+#loader-cancel-message {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
