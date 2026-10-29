@@ -69,3 +69,23 @@
         animation-duration: 4s;
     }
 }
+
+/* Messages de chargement sur la page 404 */
+#kronyx-loader {
+    flex-direction: column;
+    padding: 24px;
+}
+
+#loader-message {
+    margin: 28px 16px 0;
+    color: #ccc;
+    font-size: 14px;
+    text-align: center;
+}
+
+#loader-cancel-message {
+    margin: 8px 16px 0;
+    color: #8bdc72;
+    font-size: 12px;
+    text-align: center;
+}

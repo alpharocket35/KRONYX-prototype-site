@@ -7,14 +7,27 @@ const toggle=document.querySelector('.menu-toggle');const nav=document.querySele
 
     // Masquer le chargement quand la page est prête
     window.addEventListener("load", () => {
-    if (document.body.classList.contains("page-404")) {
-        setTimeout(() => {
+        if (document.body.classList.contains("page-404")) {
+            const loaderMessage = document.getElementById("loader-message");
+            let secondes = 0;
+
+            const compteARebours = setInterval(() => {
+                secondes++;
+
+                if (loaderMessage) {
+                    loaderMessage.textContent =
+                        `Recherche d'une page correspondant à votre requête… ${secondes} s`;
+                }
+
+                if (secondes >= 10) {
+                    clearInterval(compteARebours);
+                    loader.classList.add("hidden");
+                }
+            }, 1000);
+        } else {
             loader.classList.add("hidden");
-        }, 10000);
-    } else {
-        loader.classList.add("hidden");
-    }
-}, { once: true });
+        }
+    }, { once: true });
 
     // Afficher le chargement lors d'une navigation interne
     document.addEventListener("click", (event) => {
