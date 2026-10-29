@@ -7,8 +7,14 @@ const toggle=document.querySelector('.menu-toggle');const nav=document.querySele
 
     // Masquer le chargement quand la page est prête
     window.addEventListener("load", () => {
+    if (document.body.classList.contains("page-404")) {
+        setTimeout(() => {
+            loader.classList.add("hidden");
+        }, 10000);
+    } else {
         loader.classList.add("hidden");
-    }, { once: true });
+    }
+}, { once: true });
 
     // Afficher le chargement lors d'une navigation interne
     document.addEventListener("click", (event) => {
