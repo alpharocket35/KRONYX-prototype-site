@@ -10,20 +10,28 @@ Users may modify the code for their own personal, private, and non-commercial pr
 
 These permissions do not grant any right to publicly distribute, publish, or share the original or modified source code.
 
-## 2. Attribution Requirements
+## 2. Attribution and Copyright Requirements
 
-Any permitted use of this code must include clear and visible attribution to **KRONYX Labs**, including:
+Any permitted use of the source code must include clear, visible, and mandatory attribution to **KRONYX Labs as the original copyright holder**.
 
-- The name "KRONYX Labs".
+The attribution must include:
+
+- The name **KRONYX Labs** as the original copyright holder.
+- The following copyright notice:
+
+  `Copyright (c) 2026 KRONYX Labs. All rights reserved.`
+
 - A link to the original repository and its official release:
 
   https://github.com/alpharocket35/KRONYX-prototype-site/releases/tag/KRONYXLabs-Website
 
   (or its updated address, if changed).
 
-This attribution must be preserved in all permitted copies, references, and modifications.
+This attribution and copyright notice must be preserved in all permitted copies and modifications of the source code.
 
-Removing, concealing, or altering the original attribution is prohibited.
+Users may not remove, conceal, alter, or replace the original copyright notice or claim ownership of the original KRONYX Labs code.
+
+Modifications made by users do not transfer or replace the original copyright ownership of the code.
 
 ## 3. Restrictions
 
@@ -35,13 +43,17 @@ Without prior written permission from KRONYX Labs, you may not:
 - Claim authorship or ownership of the original KRONYX Labs code.
 - Use, copy, modify, redistribute, or otherwise reuse the images, logos, icons, graphics, and other visual assets included in this repository.
 
-The visual assets are excluded from the permissions granted under this license and remain protected by their respective copyright.
+The visual assets are expressly excluded from the permissions granted under this license and remain protected by their respective copyright.
 
 ## 4. Publication Authorization
 
 Any request to publish, redistribute, or publicly share the original or modified source code must be submitted in writing to the repository owner through the discussion section of the relevant GitHub Release.
 
-The request must clearly identify the project, the intended use, and the content that the applicant wishes to publish.
+The request must clearly identify:
+
+- The project concerned.
+- The intended use.
+- The content that the applicant wishes to publish.
 
 Publication is strictly prohibited until explicit written authorization has been granted by the repository owner.
 
@@ -56,6 +68,8 @@ All rights not expressly granted in this license remain with KRONYX Labs.
 The original source code and visual assets remain the property of their respective copyright holders.
 
 This license does not transfer ownership or copyright to any user.
+
+Nothing in this license shall be interpreted as granting ownership of the original KRONYX Labs work to any third party.
 
 ## 6. Disclaimer
 
