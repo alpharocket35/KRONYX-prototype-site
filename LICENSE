@@ -1,78 +1,152 @@
-# KRONYX Labs – Custom License
+# KRONYX Labs – Licence personnalisée
+**Copyright (c) 2026 KRONYX Labs. Tous droits réservés.**
 
+## 1. Objet de cette licence
+
+La présente licence définit les conditions dans lesquelles le code source et les éléments de ce dépôt KRONYX Labs peuvent être consultés, étudiés, modifiés et réutilisés.
+
+Toute utilisation du contenu de ce dépôt doit respecter l'intégralité des conditions ci-dessous.
+
+Une autorisation de réutilisation ne constitue pas un transfert de propriété intellectuelle.
+
+## 2. Autorisations limitées
+
+Sous réserve du respect de cette licence, les utilisateurs sont autorisés à :
+
+- Consulter et étudier le code source à des fins d'apprentissage.
+- Utiliser le code comme référence pour leurs propres projets.
+- Modifier le code dans le cadre d'un projet personnel et non commercial.
+
+Ces autorisations ne permettent pas, à elles seules, de publier ou redistribuer le code original ou ses versions modifiées.
+
+Toute publication ou redistribution nécessite une autorisation écrite préalable de KRONYX Labs.
+
+## 3. Attribution obligatoire
+
+Toute utilisation autorisée du code original doit mentionner clairement KRONYX Labs comme créateur ou titulaire des droits sur les éléments concernés.
+
+L'attribution doit conserver les informations suivantes :
+
+**KRONYX Labs**
+
+**Copyright (c) 2026 KRONYX Labs. All rights reserved.**
+
+Source originale :  
+https://github.com/alpharocket35/KRONYX-prototype-site/releases/tag/KRONYXLabs-Website
+
+Cette attribution ne doit pas être supprimée, masquée ou présentée de manière trompeuse.
+
+## 4. Restrictions
+
+Sans autorisation écrite préalable de KRONYX Labs, il est interdit de :
+
+- Utiliser commercialement le code original.
+- Publier ou redistribuer le code original ou une version modifiée.
+- Réutiliser le code original dans un autre projet public.
+- Accorder à des tiers des droits que cette licence ne donne pas.
+- Présenter le code original comme étant une création personnelle.
+- Supprimer ou modifier les mentions de copyright.
+
+Les images, logos, icônes et autres ressources graphiques de KRONYX Labs sont également soumis à leurs propres droits. Leur réutilisation, modification ou redistribution nécessite une autorisation distincte.
+
+## 5. Conditions de publication autorisée
+
+Une personne souhaitant publier un projet reposant sur le code de KRONYX Labs doit obtenir une autorisation écrite préalable.
+
+Cette autorisation peut être limitée à un projet précis et à des conditions particulières.
+
+L'autorisation de publier un projet ne signifie pas que son auteur peut librement redistribuer le code original à d'autres personnes.
+
+Le silence de KRONYX Labs ne constitue jamais une autorisation.
+
+## 6. Procédure obligatoire concernant LICENSE, LICENSE2 et LICENSE3
+
+Lorsqu'une personne obtient l'autorisation de réutiliser et de publier le projet KRONYX Labs, elle doit respecter la procédure suivante.
+
+### Étape 1 – Le fichier LICENSE
+
+Le fichier `LICENSE` correspond à la présente licence originale de KRONYX Labs.
+
+Après avoir copié les fichiers nécessaires dans son propre dépôt et pris connaissance des conditions applicables, le nouvel auteur doit **supprimer uniquement le fichier `LICENSE`** de son nouveau dépôt.
+
+Cette suppression ne signifie pas que les conditions de la présente licence cessent de s'appliquer au code original.
+
+### Étape 2 – Le fichier LICENSE2
+
+Le fichier `LICENSE2` contient les conditions obligatoires supplémentaires définies par KRONYX Labs.
+
+Il doit être :
+
+- Conservé dans le nouveau dépôt.
+- Gardé intégralement et exactement tel qu'il a été fourni.
+- Ni modifié, ni raccourci, ni traduit.
+- Utilisé comme texte de référence pour compléter le fichier `LICENSE3`.
+
+**Le contenu de `LICENSE2` ne doit jamais être modifié.**
+
+### Étape 3 – Le fichier LICENSE3
+
+Le fichier `LICENSE3` est un document de départ destiné à devenir la licence personnalisée du nouveau projet.
+
+Le nouvel auteur doit :
+
+1. Modifier `LICENSE3` pour l'adapter à son propre site et à ses propres créations.
+2. Y intégrer la totalité du contenu de `LICENSE2`, en le copiant exactement, sans aucune modification.
+3. Ajouter ses propres conditions de licence en dehors du texte obligatoire de KRONYX Labs.
+4. Veiller à ce qu'aucune de ses conditions personnelles ne contredise, ne supprime ou n'affaiblisse les conditions de `LICENSE2`.
+
+Le fichier `LICENSE3` devient ainsi la licence complète du nouveau projet, tandis que `LICENSE2` reste présent séparément et inchangé dans le dépôt.
+
+### Structure finale obligatoire
+
+Après application de cette procédure, le nouveau dépôt doit notamment contenir :
+
+```text
+Nouveau-Projet/
+│
+├── LICENSE2       ← Conservé intégralement, sans modification
+├── LICENSE3       ← Personnalisé et contenant intégralement LICENSE2
+│
+├── index.html
+├── style.css
+└── assets/
+```
+
+Le fichier `LICENSE` original ne doit donc plus apparaître dans le nouveau dépôt.
+
+## 7. Droits sur les nouvelles créations
+
+Le nouvel auteur conserve les droits sur ses propres créations originales, notamment :
+
+- Ses textes.
+- Ses images et illustrations personnelles.
+- Ses nouvelles fonctionnalités.
+- Ses modifications et ajouts originaux.
+- Les autres éléments dont il détient légalement les droits.
+
+Cependant, ces droits ne lui permettent pas de revendiquer la propriété du code original de KRONYX Labs ni de supprimer les obligations qui s'y appliquent.
+
+## 8. Absence de transfert de propriété
+
+La réutilisation autorisée du code ne transfère aucun droit de propriété intellectuelle sur les éléments originaux de KRONYX Labs.
+
+Toute modification, adaptation ou publication autorisée doit respecter les limites de l'autorisation accordée.
+
+Les éléments appartenant à des tiers restent soumis à leurs propres licences et conditions.
+
+## 9. Respect de la licence
+
+Toute personne utilisant le contenu de ce dépôt est tenue de respecter les présentes conditions ainsi que les autorisations écrites qui lui ont éventuellement été accordées.
+
+En cas de contradiction entre les conditions personnelles ajoutées dans `LICENSE3` et le texte obligatoire de `LICENSE2`, les conditions obligatoires de `LICENSE2` doivent être respectées pour les éléments auxquels elles s'appliquent.
+
+## 10. Absence de garantie
+
+Le contenu de ce dépôt est fourni « en l'état », sans garantie d'aucune sorte, dans les limites autorisées par la loi applicable.
+
+KRONYX Labs ne garantit pas que le code soit exempt d'erreurs ou adapté à un usage particulier.
+
+---
+
+**KRONYX Labs**  
 Copyright (c) 2026 KRONYX Labs. All rights reserved.
-
-## 1. Permissions
-
-Permission is granted to view, study, and use the source code contained in this repository as a reference or learning resource.
-
-Users may modify the code for their own personal, private, and non-commercial projects, subject to all conditions and restrictions stated in this license.
-
-These permissions do not grant any right to publicly distribute, publish, or share the original or modified source code.
-
-## 2. Attribution and Copyright Requirements
-
-Any permitted use of the source code must include clear, visible, and mandatory attribution to **KRONYX Labs as the original copyright holder**.
-
-The attribution must include:
-
-- The name **KRONYX Labs** as the original copyright holder.
-- The following copyright notice:
-
-  `Copyright (c) 2026 KRONYX Labs. All rights reserved.`
-
-- A link to the original repository and its official release:
-
-  https://github.com/alpharocket35/KRONYX-prototype-site/releases/tag/KRONYXLabs-Website
-
-  (or its updated address, if changed).
-
-This attribution and copyright notice must be preserved in all permitted copies and modifications of the source code.
-
-Users may not remove, conceal, alter, or replace the original copyright notice or claim ownership of the original KRONYX Labs code.
-
-Modifications made by users do not transfer or replace the original copyright ownership of the code.
-
-## 3. Restrictions
-
-Without prior written permission from KRONYX Labs, you may not:
-
-- Use this code for commercial purposes.
-- Redistribute, publish, sublicense, or share the original or modified source code.
-- Incorporate this code into publicly distributed projects.
-- Claim authorship or ownership of the original KRONYX Labs code.
-- Use, copy, modify, redistribute, or otherwise reuse the images, logos, icons, graphics, and other visual assets included in this repository.
-
-The visual assets are expressly excluded from the permissions granted under this license and remain protected by their respective copyright.
-
-## 4. Publication Authorization
-
-Any request to publish, redistribute, or publicly share the original or modified source code must be submitted in writing to the repository owner through the discussion section of the relevant GitHub Release.
-
-The request must clearly identify:
-
-- The project concerned.
-- The intended use.
-- The content that the applicant wishes to publish.
-
-Publication is strictly prohibited until explicit written authorization has been granted by the repository owner.
-
-Silence, absence of a response, or an unanswered request does not constitute permission.
-
-Any authorization granted applies only to the specific request approved by KRONYX Labs, unless otherwise stated in writing.
-
-## 5. Ownership and Copyright
-
-All rights not expressly granted in this license remain with KRONYX Labs.
-
-The original source code and visual assets remain the property of their respective copyright holders.
-
-This license does not transfer ownership or copyright to any user.
-
-Nothing in this license shall be interpreted as granting ownership of the original KRONYX Labs work to any third party.
-
-## 6. Disclaimer
-
-This software is provided "as is", without warranty of any kind, express or implied.
-
-KRONYX Labs shall not be held liable for any damages or issues arising from the use, modification, or inability to use this software.
