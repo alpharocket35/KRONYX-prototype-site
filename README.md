@@ -1,1 +1,4 @@
-Il n'y a rien d'intéressant ici
+Si vous souhaitez consulter l'architecture du site, merci de regarder ici:
+
+https://github.com/alpharocket35/KRONYX-prototype-site/releases/tag/KRONYXLabs-Website
+
